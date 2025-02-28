@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Aynur Kozan | Web Developer / Designer</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <h1 class="nav__logo">Aynur Kozan</h1>
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Services</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >📧 Contact me</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Custom Web Solutions
+
+          <span class="highlight">From Stunning Designs</span>
+          to<br />
+          <span class="highlight"> Interactive Features!</span>
+        </h1>
+        <h4>
+          I specialize in modern web development and interactive user
+          experiences to help businesses grow.
+        </h4>
+        <button class="btn--text btn--scroll-to">
+          Here’s what I offer: &DownArrow;
+        </button>
+        <img
+          src="img/hero.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">MY SERVICES</h2>
+        <h3 class="section__header">
+          Elevate Your Brand with Engaging & Dynamic Web Solutions!
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Web Design & Development</h5>
+          <p>
+            I create responsive, fast, and visually stunning websites tailored
+            to your needs. Whether it's a landing page, portfolio, or a full
+            business website, I ensure pixel-perfect design and smooth
+            functionality.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">E-Commerce Website Development</h5>
+          <p>
+            Need an online store? I design and develop secure, user-friendly,
+            and high-converting e-commerce platforms. Your customers will enjoy
+            a seamless shopping experience with features like: ✔ Intuitive
+            product pages ✔ Secure checkout systems ✔ Mobile-first design ✔
+            Performance optimization
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/card-lazy.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">
+            Engaging Designs & Interactive Visuals
+          </h5>
+          <p>
+            I create eye-catching designs and dynamic interactive elements to
+            enhance user engagement. From animated banners and hero sections to
+            spin-the-wheel promotions and gamified experiences, my solutions are
+            designed to attract, engage, and convert users effortlessly. 🚀
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">SKILLS</h2>
+        <h3 class="section__header">
+          🛠 Design. Develop. Deliver. Elevate Your Digital Presence!
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Programming & Development
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Tools & Technologies
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Design & UI/UX
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            I create responsive, fast, and visually stunning websites
+          </h5>
+          <p>
+            JavaScript (ES6+) , React.js, Next.js, React Native, Micro Frontend
+            Architecture, Salesforce Commerce Cloud (SFCC), Redux, Context API,
+            Bootstrap, TailwindCSS, Material UI, HTML5, CSS3, SASS/SCSS, BEM
+            Methodology, Performance Optimization & Code Splitting
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">Need an online store?</h5>
+          <p>
+            Git, GitHub, Webpack, Vite, Parcel, Babel, RESTful APIs, GraphQL,
+            JSON, XML, Node.js, NPM, Yarn, JIRA, Trello, Agile & Scrum
+            Methodologies, Chrome DevTools, Lighthouse, ESLint, Prettie, Joomla,
+            WordPress
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            I create eye-catching designs and dynamic interactive elements
+          </h5>
+          <p>
+            Figma, Zeplin, Adobe XD, Miro, Photoshop, Illustrator, After
+            Effects, Responsive & Mobile-First Design
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">From Clients</h2>
+        <h3 class="section__header">
+          Necessitatibus id alias reiciendis, perferendis facere pariatur dolore
+          veniam autem esse non voluptate
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best decision ever!</h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium quas quisquam non? Quas voluptate nulla minima
+              deleniti optio ullam nesciunt, numquam corporis et asperiores
+              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+              id alias reiciendis, perferendis facere pariatur dolore veniam
+              autem esse non voluptatem saepe provident nihil molestiae.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a complete minimalist
+            </h5>
+            <blockquote class="testimonial__text">
+              Quisquam itaque deserunt ullam, quia ea repellendus provident,
+              ducimus neque ipsam modi voluptatibus doloremque, corrupti
+              laborum. Incidunt numquam perferendis veritatis neque repellendus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+              deserunt exercitationem deleniti.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Finally free from old-school</h5>
+            <blockquote class="testimonial__text">
+              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+              incidunt commodi architecto numquam omnis nulla autem,
+              necessitatibus blanditiis modi similique quidem. Odio aliquam
+              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+              alias reiciendis, perferendis facere.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">📩 Let’s Work Together!</h3>
+      </div>
+      <button class="btn btn--show-modal">📧 Contact me</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Me</a>
+        </li>
+      </ul>
+
+      <p class="footer__copyright">&copy; Copyright by Aynur Kozan</p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        If you're looking for a professional and
+        <br />
+        engaging digital experience,
+        <span class="highlight">let’s connect! 🚀 </span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
